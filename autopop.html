@@ -1,0 +1,30 @@
+<html>
+    <head> <link rel="stylesheet" href="autopop.css"></head>
+<body>
+
+    <div class="popup" id="popup">
+        <img src="images/image24.png"> <h2>Signed Up!</h2>
+        <p>Your have successfully signed up. Thanks!</p>
+        <button type="button" onclick="closePopup()">OK</button>
+        </div>
+
+
+<script>
+
+    const popup = document.querySelector('.popup'); 
+   
+    window.onload = function(){ 
+        setTimeout(function(){
+
+        popup.style.display="block";
+    
+   
+},2000)
+    
+    }
+    close.addEventListener('click', () => { 
+        popup.style.display = "none";
+     })
+    </script>
+</body>
+</html>

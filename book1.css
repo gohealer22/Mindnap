@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topnav1 {
+    overflow: hidden;
+    background-color: white;
+    
+  }
+  
+.topnav1 a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bolder;
+  }
+
+.topnav1 a.active{
+    float: left;
+  }
+.topnav1 a.active {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+.soham{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.soham h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 400%;
+    font-weight: bold;
+    margin-top: 50%;
+}
+
+.soham .fork{
+    margin-left:42%;
+    margin-top: 30%;
+}
+
+.y1{
+    color: black;
+    position:absolute;
+    left: 55%;
+    margin-top: 10%;
+    transform: translate(-50%, -50%);
+}
+
+
+.don{
+    margin-top: 15%;
+    position: absolute;
+    border-spacing:90px;
+}
+
+.m3{
+    font-size: larger;
+}
+
+.footer{
+  color: white;
+  text-align: center;
+
+}
+#last
+{
+color: #27313b;
+}
+
+nav a:hover
+{
+color: #4f7793;
+}
+
+nav a:active
+{
+    color:#27313b;
+}
+
+.hook{
+  background-image: url(images/image23.jpg);
+  
+  width: 100%;
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
